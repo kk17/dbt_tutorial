@@ -1,4 +1,3 @@
-from tkinter import PROJECTING
 from google.cloud import bigquery
 import os
 from os import path
@@ -32,14 +31,14 @@ def load_one_csv(table_name, schema):
 
 
 table_map = {
-    # "airports": [
-    #     bigquery.SchemaField("Code", "INTEGER"),
-    #     bigquery.SchemaField("Description", "STRING"),
-    # ],
-    # "carriers": [
-    #     bigquery.SchemaField("Code", "STRING"),
-    #     bigquery.SchemaField("Description", "STRING"),
-    # ],
+    "airports": [
+        bigquery.SchemaField("Code", "INTEGER"),
+        bigquery.SchemaField("Description", "STRING"),
+    ],
+    "carriers": [
+        bigquery.SchemaField("Code", "STRING"),
+        bigquery.SchemaField("Description", "STRING"),
+    ],
     "flights": [
         bigquery.SchemaField("FL_DATE", "DATE"),
         bigquery.SchemaField("OP_UNIQUE_CARRIER", "STRING"),
