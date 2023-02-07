@@ -65,6 +65,13 @@ flights:
   target: dev
 ```
 
+For credentials set below environment variables.
+
+```
+PROJECT_NAME={google cloud platform project_name}
+GOOGLE_APPLICATION_CREDENTIALS={google cloud platform application_credentials}
+```
+
 Your environment is now ready to go.
 Run `dbt run --profile flights` to populate our data warehouse.
 This instructs `dbt` to compile and execute the data models defined in `models/`.
