@@ -1,2 +1,2 @@
-dbt-bigquery
+# dbt-bigquery
 google-cloud-bigquery
