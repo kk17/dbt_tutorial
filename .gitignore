@@ -1,0 +1,16 @@
+
+target/
+dbt_modules/
+logs/
+.DS_Store
+.env
+.devcontainer
+dbt_packages
+flights_data
+images
+*.py
+*.txt
+*.md
+Dockerfile
+*.yml
+models
