@@ -137,6 +137,7 @@ All the way in the bottom-right corner you can find the lineage tool, giving an 
 
 ![](images/dbt_lineage.png)
 
+You can visit the demo site [here](https://kk17.net/dbt_tutorial).
 
 ## Conclusion
 
